@@ -1,0 +1,34 @@
+{
+  "name": "hoist-node-sdk",
+  "version": "1.0.0",
+  "description": "Node.js SDK for Hoist",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hoist/hoist-node-sdk.git"
+  },
+  "author": "Jamie Wilson <jamie@hoist.io> (https://hoist.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoist/hoist-node-sdk/issues"
+  },
+  "homepage": "https://github.com/hoist/hoist-node-sdk",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^4.3.0",
+    "chai-jq": "0.0.8",
+    "gulp-istanbul": "^0.7.0",
+    "gulp-istanbul-enforcer": "^1.0.3",
+    "gulp-jshint": "^1.9.4",
+    "gulp-mocha": "^2.0.0",
+    "jshint-stylish": "^1.0.1",
+    "sinon": "^1.14.1"
+  },
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "request-promise": "^0.4.1"
+  }
+}
