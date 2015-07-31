@@ -37,17 +37,13 @@ Hoist.getBounceURL({
 ```
 Use the connector key you set up in the portal. 
 
-- If both the return URL and bucket key *are* set
-The user will be authenticated, the token is stored against them, and the user is redirected to the return URL. 
+- If both the return URL and bucket key **are** set; the user will be authenticated, the token is stored against them, and the user is redirected to the return URL. 
 
-- If the return URL *isn't* set and the bucket key *is* set
-The user will see a success screen showing the logo of the service they're connecting to and a success message.
+- If the return URL **isn't** set and the bucket key **is** set; the user will see a success screen showing the logo of the service they're connecting to and a success message.
 
-- If the return URL *is* set and the bucket key *isn't* set
-The token will be appended to the URL in the querystring of the return URL on redirect.
+- If the return URL **is** set and the bucket key **isn't** set; the token will be appended to the URL in the querystring of the return URL on redirect.
 
-- If *neither* the return URL or bucket key are set
-The user will see a success screen with the logo of the service they're connecting to, and the token that needs to be stored.  
+- If **neither** the return URL or bucket key are set; the user will see a success screen with the logo of the service they're connecting to, and the token that needs to be stored.  
 
 ## Listening to events
 ```js
