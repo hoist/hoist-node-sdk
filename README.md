@@ -4,12 +4,12 @@ Node.js SDK for Hoist
 ## Installation
 
 ```bash
-$ npm install hoist-node-sdk
+$ npm install @hoist/node-sdk
 ```
 
 ## Quick Start
 ```js
-var Hoist = require('hoist-node-sdk');
+var Hoist = require('@hoist/node-sdk');
 
 //Use your API key from the Dashboard of your application
 Hoist.setApiKey("xxx-xxx");

@@ -1,6 +1,6 @@
 {
-  "name": "hoist-node-sdk",
-  "version": "0.1.0",
+  "name": "@hoist/node-sdk",
+  "version": "1.0.2",
   "description": "Node.js SDK for Hoist",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/hoist/hoist-node-sdk.git"
   },
-  "author": "Jamie Wilson <jamie@hoist.io> (https://hoist.io/)",
+  "author": "Hoist <support@hoist.io> (https://hoist.io/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hoist/hoist-node-sdk/issues"
