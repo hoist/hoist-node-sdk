@@ -9,7 +9,9 @@ describe('event', function () {
   var result = 0;
   before(function(done) {
     
-    Hoist.setApiKey("my-api-key");
+    this.timeout(10000);
+
+    Hoist.setApiKey("--");
     
     Hoist.on("PING", function(event) {
       
